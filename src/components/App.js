@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Books Store</h1>
+      <h1>Books List</h1>
       <button onClick={() => dispatch(sort_by_author())}>sort by author</button>&nbsp;
       <button onClick={() => dispatch(sort_by_title())}>sort by title</button>
 
